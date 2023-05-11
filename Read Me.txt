@@ -1,0 +1,41 @@
+Citation Request:
+	Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail industry: 
+	A case study of RFM model-based customer segmentation using data mining, 
+	Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3, pp. 197â€“208, 2012 
+	Published online before print: 27 August 2012. doi: 10.1057/dbm.2012.17).
+------------------------------------------------------------------------------------------------------
+
+1. Title: 	Online purchase analysis for a retail store in the United Kingdom
+
+2. Introduction: 
+
+	It involves finding purchasing behaviors of customers using association rule mining to identify actionable insights between products.
+	The results would enhance the sales of itemsets in the analyzed rules and improve marketing strategies for the retail business
+
+3. Data source:	 The dataset is public, available for research.
+		It was obtained from UCI Machine Learning Repository
+		https://archive.ics.uci.edu/ml/datasets/online+retail#
+
+4. Framework: Jupyter Notebook (anaconda3)
+
+5. How to run the code:	install Jupyter Notebook, open the source file "Task2" via the framework, save the dataset "Online_Retail" to 
+			your working directory, and run the file
+
+6. Number of instances: 541909
+
+7. Number of attributes: 8
+
+8. Missing attribute values: None
+
+9. Attribute information:
+
+Attributes	Type	Description
+Invoice number	Nominal	A 6-digit integral number uniquely assigned to each transaction. If this code starts with the letter ‘C,’ it indicates a cancellation
+StockCode	Nominal	The product (item) code is a 5-digit integral number uniquely assigned to each product
+Description	Nominal	Product name
+Quantity	Numeric	The quantities of each product per transaction
+InvoiceDate	Numeric	The day and time when each transaction was generated
+UnitPrice	Numeric	Product price per unit in sterling
+CustomerID 	Nominal	a 5-digit integral number uniquely assigned to each customer
+Country		Nominal	The name of the country where each customer resides
+	
