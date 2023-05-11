@@ -18,7 +18,7 @@ Citation Request:
 
 4. Framework: Jupyter Notebook (anaconda3)
 
-5. How to run the code:	install Jupyter Notebook, open the source file "Task2" via the framework, save the dataset "Online_Retail" to 
+5. How to run the code:	install Jupyter Notebook, open the source file "Association_rule_mining" via the framework, save the dataset "Online_Retail" to 
 			your working directory, and run the file
 
 6. Number of instances: 541909
